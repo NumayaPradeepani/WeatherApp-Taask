@@ -1,0 +1,80 @@
+.mainloginPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    height: 100vh;
+    background-image:url(tree.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .loginPage{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 30%;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+  }
+
+  .loginPage h1{
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .loginPage label{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: left;
+    align-items: left;
+  }
+
+  .loginPage input{
+    width: 45vh;
+    height: 3rem;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding-left: 1rem;
+    /* text-decoration-color: rgb(0, 0, 0); */
+  }
+
+
+  .loginPage button{
+    width: 45vh;
+    height: 3rem;
+    border-radius: 5px;
+    border: 1px solid rgba(73, 132, 147, 0.874);
+    background-color: rgba(73, 132, 147, 0.874);
+    color: rgba(255, 255, 255, 255);
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .loginPage button:hover{
+    background-color: rgba(17, 155, 176, 0.874);
+    color: rgba(255, 255, 255, 0.874);
+  }
+ 
+
+ .loginPage button.sign-up{
+  width: 45vh;
+  height: 3rem;
+  border-radius: 5px;
+  border: 1px solid rgba(118, 162, 152, 0.874);
+  background-color: rgba(118, 162, 152, 0.874);
+  color: rgba(255, 255, 255, 255);
+  font-weight: 600;
+  cursor: pointer;
+ }
+
+  .loginPage button.sign-up:hover{
+    background-color: rgba(18, 156, 126, 0.874);
+    color: rgba(255, 255, 255, 0.874);
+  }
